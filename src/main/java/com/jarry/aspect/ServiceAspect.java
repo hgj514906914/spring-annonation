@@ -42,5 +42,7 @@ public class ServiceAspect {
 	public void throwing(Exception ex) {
 		System.out.println("throwing ........ ex = " + ex);
 	}
+	
+	
 
 }

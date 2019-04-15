@@ -15,6 +15,8 @@ public class StudentService {
 	@Transactional
 	public void insert(String id) {
 		studentDao.insertStudent(id);
-		throw new RuntimeException("tttt");
+		throw new RuntimeException("ttttkkk");
 	}
+
+
 }
